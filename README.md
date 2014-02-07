@@ -52,7 +52,7 @@ class MyPage
   div(:answer_row1, :name => "answer_row", :index => 0)
   div(:answer_row1, :name => "answer_row", :index => 1)
   div(:answer_row1, :name => "answer_row", :index => 2)
-  button(:change_password, :id => "process_payment")
+  button(:pay, :id => "process_payment")
 end
 ```
 The ```include PageObject``` statement includes the PageObject mixin module that includes a lot of helper methods. In our case we have used the div and the button helper methods to correspond to our html elements. 
