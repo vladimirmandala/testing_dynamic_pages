@@ -73,7 +73,7 @@ class MyPage
   div(:answer_row1, :name => "answer_row", :index => 0)
   div(:answer_row1, :name => "answer_row", :index => 1)
   div(:answer_row1, :name => "answer_row", :index => 2)
-  button(:change_password, :id => "process_payment")
+  button(:pay, :id => "process_payment")
 
   #
   # Dynamically get name attributes of text inputs and dynamic page-object calls
@@ -139,7 +139,7 @@ Next we are going to add a method to populate the text fields using the helper w
   div(:answer_row1, :name => "answer_row", :index => 0)
   div(:answer_row1, :name => "answer_row", :index => 1)
   div(:answer_row1, :name => "answer_row", :index => 2)
-  button(:change_password, :id => "process_payment")
+  button(:pay, :id => "process_payment")
 
   #
   # Dynamically get name attributes of text inputs and dynamic page-object calls
